@@ -1,7 +1,7 @@
 Weather Monitoring System
 A C# implementation of a weather monitoring system that demonstrates several design patterns including Singleton, Observer, Decorator, and Factory patterns.
 
-Features
+Features:
 Singleton Pattern: The WeatherData class is implemented as a singleton to ensure only one instance exists.
 
 Observer Pattern: Displays register as observers and get notified when weather data changes.
@@ -12,7 +12,7 @@ Factory Pattern: The WeatherStation class provides factory methods for creating 
 
 Separation of Concerns: Clear separation between interfaces and implementations, and between library and application.
 
-Design Patterns Used
+Design Patterns Used:
 Singleton: WeatherData class
 
 Observer: ISubject and IObserver interfaces with WeatherData as subject
@@ -22,10 +22,10 @@ Decorator: CurrentConditionsDisplay with optional decoration
 Factory: WeatherStation static class
 
 
-How to Run
+How to Run:
 Ensure you have .NET SDK installed (version 6.0 or later)
 
-Clone this repository
+Clone this repository:
 
 Navigate to the project directory
 
@@ -70,7 +70,7 @@ Requirements
 
 Visual Studio Code (recommended) or any C# IDE
 
-Implementation Details
+Implementation Details:
 The system consists of:
 
 A WeatherData singleton that collects and distributes weather data
@@ -85,7 +85,7 @@ ForecastDisplay: Predicts weather based on pressure changes
 
 A WeatherStation factory that creates display objects
 
-Design Patterns Explanation
+Design Patterns Explanation:
 Singleton: Ensures only one WeatherData instance exists to maintain consistent state.
 
 Observer: Allows displays to register for updates without tight coupling to the weather data source.
