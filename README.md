@@ -21,26 +21,7 @@ Decorator: CurrentConditionsDisplay with optional decoration
 
 Factory: WeatherStation static class
 
-Project Structure
-text
-WeatherMonitoringSystem/
-├── WeatherMonitoringSystem.sln
-├── WeatherMonitoringSystem.Core/ (Class Library)
-│   ├── Interfaces/
-│   │   ├── IDisplay.cs
-│   │   ├── IObserver.cs
-│   │   └── ISubject.cs
-│   ├── Models/
-│   │   ├── WeatherData.cs
-│   │   ├── Display/
-│   │   │   ├── CurrentConditionsDisplay.cs
-│   │   │   ├── ForecastDisplay.cs
-│   │   │   └── StatisticsDisplay.cs
-│   │   └── WeatherStation.cs
-│   └── WeatherMonitoringSystem.Core.csproj
-└── WeatherMonitoringSystem.App/ (Console Application)
-    ├── Program.cs
-    └── WeatherMonitoringSystem.App.csproj
+
 How to Run
 Ensure you have .NET SDK installed (version 6.0 or later)
 
